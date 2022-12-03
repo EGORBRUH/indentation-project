@@ -6,7 +6,7 @@
   max-width: 1440px;
   margin: 0 180px;
 }
-body {
+body, html {
   min-width: 320px;
   font-family: Roboto, sans-serif;
   font-style: normal;
