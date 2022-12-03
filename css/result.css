@@ -19,8 +19,4 @@
 .results__item:last-child {
   margin: 0;
 }
-.result-bg {
-  background: #F1F1F1;
-  padding: 25px 30px 25px 46px;
-  border-radius: 10px;
-}
+
