@@ -18,7 +18,5 @@ body, html {
 h1, h2, h3, p, img, ol, ul {
   margin: 0;
 }
-p {
-  max-width: 1080px;
-}
+
 
