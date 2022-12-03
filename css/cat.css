@@ -1,0 +1,39 @@
+.cat__title {
+  max-width: 1080px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+.cat {
+  display: flow-root;
+  padding: 25px 0;
+}
+.img-first {
+  display: block;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.img-second {
+  float: right;
+
+}
+.cat__text {
+
+  display:block;;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+.cat__text:last-child {
+  margin: 0;
+}
+.cat__text:nth-child(6n) {
+  margin-bottom: 70px;
+}
+.cat-margin {
+  max-width: 480px;
+  margin-right: 40px;
+}
