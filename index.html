@@ -12,6 +12,7 @@
 <body>
   <header class="header">
     <div class="container">
+    <section class="header__top">
       <h1 class="header__title">Отступы в вёрстке: margin и padding</h1>
 
       <p class="header__text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода.
@@ -32,6 +33,7 @@
           </ol>
         </nav>
       </div>
+    </section>
     </div>
   </header>
 
@@ -63,8 +65,8 @@
 
     </div>
 
+    <div class="container">
       <section class="dom">
-        <div class="container">
           <h3 class="dom__title" id="dom__title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
 
           <p class="dom__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева.
@@ -94,13 +96,14 @@
 
           <p class="dom__text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас.
             Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
-        </div>
       </section>
+    </div>
 
 
+
+
+    <div class="container">
       <section class="last-child">
-        <div class="container">
-
           <h3 class="last-child__title" id="last__title">Для последнего элемента группы отступ всегда обнуляется</h3>
 
           <p class="last-child__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
@@ -130,14 +133,15 @@
           <p class="last-child__text">Советую использовать псевдоклассы :last-child чаще других, например так:</p>
 
           <img class="img-last img-last-code-last" src="image/code_img8.jpg" alt="Картинка с кодом">
-        </div>
       </section>
+    </div>
+
 
   </main>
   <footer class="footer">
-    <section class="results">
       <div class="container">
-        <div class="result result-bg">
+        <section class="results">
+          <div class="result result-bg">
 
           <h2 class="results__title">Подытожим:</h2>
           <ul class="results__list">
@@ -149,9 +153,10 @@
           </ul>
           <p class="results__text">Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки.
             Но для этого эти принципы необходимо хорошо знать.</p>
-        </div>
+          </div>
+        </section>
       </div>
-    </section>
+
   </footer>
 </body>
 </html>
