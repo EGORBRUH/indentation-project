@@ -4,7 +4,7 @@
 
 .container {
   max-width: 1440px;
-  margin: 0 180px;
+  margin: 0 auto;
 }
 body, html {
   min-width: 320px;
