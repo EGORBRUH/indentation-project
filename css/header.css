@@ -3,14 +3,14 @@
 
 }
 .container-gray {
-  margin: 0 auto;
-  max-width: 1700px;
-}
-.header-wrap{
+  max-width: 1140px;
   background: #F1F1F1;
   padding: 25px 0 25px 45px;
   border-radius: 10px;
+  margin: 0 -40px;
+
 }
+
 .header__title {
   font-weight: 900;
   font-size: 60px;
