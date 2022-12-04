@@ -21,23 +21,24 @@
   margin-bottom: 30px;
 }
 .img-last-one {
-
+  width: 100%;
   margin-bottom: 30px;
 }
 .img-last-nav {
+  width: 100%;
   margin-bottom: 30px;
 }
 .img-last_header {
   position: relative;
-  left: 13%;
+  left: 10%;
   margin-bottom: 30px;
 }
 .img-last-code-margin {
   position: relative;
-  left: 35%;
+  left: 33%;
   margin-bottom: 30px;
 }
 .img-last-code-last {
   position: relative;
-  left: 27%;
+  left: 25%;
 }

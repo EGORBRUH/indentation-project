@@ -1,17 +1,17 @@
 .header__top {
-  padding: 25px 0 0;
+  padding: 25px 0;
+}
 
-}
 .header-grey {
-  padding-bottom: 25px;
+ padding: 25px 0;
 }
+
 .container-gray {
   max-width: 1100px;
   background: #F1F1F1;
   padding: 25px 0 25px 58px;
   border-radius: 10px;
   margin: 0 auto;
-
 }
 
 .header__title {
@@ -20,39 +20,43 @@
   line-height: 120%;
   margin-bottom: 30px;
 }
-.header__text {
 
+.header__text {
   line-height: 120%;
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 30px;
 }
+
+.header__text:last-child {
+  margin: 0;
+}
+
 .header__content {
   font-weight: 700;
   font-size: 44px;
   line-height: 120%;
   margin-bottom: 20px;
-
-
 }
+
 .header__list {
   list-style-position: inside;
   padding: 0;
-
 }
 
 .header__item  {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-
   margin-bottom: 10px;
 }
+
 .header__item a {
   color: #02535F;
   text-decoration: none;
   border-bottom: 1px solid black;
 }
+
 .header__item:last-child {
   margin: 0;
 }
