@@ -38,35 +38,35 @@
   </header>
 
   <main class="main">
-    <div class="container">
-      <section class="cat">
-        <h3 class="cat__title" id="cat__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму,
-           сверху вниз, слева направо.</h3>
 
-         <img class="cat__img img-first" src="image/cat_img.jpg" alt="Картинка с примерами отступа на которой изображены коты">
-         <p class="cat__text"><b>ВАЖНО:</b> margin всегда задают от предыдущего элемента к следующему.</p>
+    <section class="cat">
+        <div class="container">
+          <h3 class="cat__title" id="cat__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму,
+             сверху вниз, слева направо.</h3>
 
-         <p class="cat__text">Свойство margin необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется margin-right и margin-bottom.</p>
+           <img class="cat__img img-first" src="image/cat_img.jpg" alt="Картинка с примерами отступа на которой изображены коты">
+           <p class="cat__text"><b>ВАЖНО:</b> margin всегда задают от предыдущего элемента к следующему.</p>
 
-         <p class="cat__text">(!) Свойства margin-left и margin-top используются крайне редко.</p>
+           <p class="cat__text">Свойство margin необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется margin-right и margin-bottom.</p>
 
-         <p class="cat__text">Для padding верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.</p>
+           <p class="cat__text">(!) Свойства margin-left и margin-top используются крайне редко.</p>
 
-         <img class="cat__img img-second" src="image/cat_img2.jpg" alt="Пример кода">
+           <p class="cat__text">Для padding верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.</p>
 
-         <div class="cat-margin">
-           <p class="cat__text">Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.</p>
+           <img class="cat__img img-second" src="image/cat_img2.jpg" alt="Пример кода">
 
-           <p class="cat__text">Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.</p>
+           <div class="cat-margin">
+             <p class="cat__text">Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.</p>
 
-           <p class="cat__text">Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
-         </div>
-       </section>
+             <p class="cat__text">Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.</p>
 
-    </div>
+             <p class="cat__text">Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
+           </div>
+        </div>
+    </section>
 
-    <div class="container">
       <section class="dom">
+        <div class="container">
           <h3 class="dom__title" id="dom__title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
 
           <p class="dom__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева.
@@ -96,14 +96,15 @@
 
           <p class="dom__text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас.
             Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
+        </div>
       </section>
-    </div>
 
 
 
 
-    <div class="container">
-      <section class="last-child">
+    <section class="last-child">
+      <div class="container">
+
           <h3 class="last-child__title" id="last__title">Для последнего элемента группы отступ всегда обнуляется</h3>
 
           <p class="last-child__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
@@ -133,15 +134,15 @@
           <p class="last-child__text">Советую использовать псевдоклассы :last-child чаще других, например так:</p>
 
           <img class="img-last img-last-code-last" src="image/code_img8.jpg" alt="Картинка с кодом">
-      </section>
-    </div>
 
+      </div>
+    </section>
 
   </main>
   <footer class="footer">
-    <div class="container">
-      <div class="container-gray">
-        <section class="results">
+    <section class="results">
+      <div class="container">
+        <div class="container-gray">
           <div class="result result-bg">
             <h2 class="results__title">Подытожим:</h2>
           <ul class="results__list">
@@ -154,9 +155,9 @@
           <p class="results__text">Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки.
             Но для этого эти принципы необходимо хорошо знать.</p>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
   </footer>
 </body>
 </html>
