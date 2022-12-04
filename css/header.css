@@ -1,6 +1,9 @@
 .header__top {
-  padding: 25px 0;
+  padding: 25px 0 0;
 
+}
+.header-grey {
+  padding-bottom: 25px;
 }
 .container-gray {
   max-width: 1100px;
